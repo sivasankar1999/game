@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("f9172c0ecd76d38961986844b80355ac.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow: hidden;
+}
+#score{
+    color:blueviolet;
+    font-family: 'Lucida Sans';
+    font-style: bold;
+    font-size: 35px;
+    z-index: -10;
+    left:0%;
+
+}
+#car{
+    width: 100px;
+    top: 50%;
+    height:70px;
+    position: absolute;
+
+}
+#line{
+    position:absolute;
+    top:50%;
+    z-index:-10;
+    left:25%;
+    box-sizing: border-box;
+    width:100%;
+    overflow: hidden;
+}
+#line1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index:-10;
+    box-sizing: border-box;
+    width:100%;
+    overflow: hidden;
+}
+#line2{
+    position:absolute;
+    top:50%;
+    left:75%;
+    z-index:-10;
+    box-sizing: border-box;
+    width:100%;
+    overflow: hidden;
+}
+.obstacle {
+    position: absolute;
+    width:150px;
+    border-bottom: blue;
+    z-index:-10;
+}
+.coin {
+    position: absolute;
+    width:50px;
+    border-bottom: blue;
+    z-index:-11;
+}
+#tree{
+    position: absolute;
+    top:-1%;
+    z-index: -10;
+    right:0%;
+}
+#trees{
+    position: absolute;
+    bottom:-1%;
+    z-index: 10;
+    right:0%;
+}
